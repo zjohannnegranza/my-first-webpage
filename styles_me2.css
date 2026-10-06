@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(198, 59, 94);
+}
+
+main{
+    width: 1000px;
+    margin: auto;
+}
+
+caption{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+table{
+    background-color: rgb(212, 203, 203);
+    width: 100%;
+    border: 3px solid black;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+td, th{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+th{
+    background-color: pink;
+    font-size: 20px;
+}
+
+.leftcol{
+    background-color: blueviolet;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#yearning{
+    text-decoration: line-through;
+}
+
+a:hover{
+    color: red;
+}
+
